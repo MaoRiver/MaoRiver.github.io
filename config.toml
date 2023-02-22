@@ -1,5 +1,5 @@
 baseURL = 'https://rivermao.com/'
 languageCode = 'en-us'
-title = 'RiverMao'
+title = 'RiverMao- 1st version'
 theme = 'ivy'
 publishDir = "docs"
