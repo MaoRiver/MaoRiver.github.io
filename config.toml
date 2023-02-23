@@ -5,7 +5,7 @@ theme = 'ivy'
 publishDir = "docs"
 [params]
     # description abou this website
-#    description = "环游是无趣~"
+    description = "环游是无趣~"
     footer = "&copy; [RiverMao](https://rivermao.com) | since 2020"
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml", "tex","sql"]
