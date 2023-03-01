@@ -7,10 +7,6 @@ publishDir = "docs"
     # description abou this website
     description = "环游是无趣~"
     footer = "&copy; [RiverMao](https://rivermao.com) | since 2020"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml", "tex","sql"]
-    highlightjsTheme = "Nord"
-    highlightjsVersion = "11.7.0"
 [markup]
     [goldmark]
         [renderer]
