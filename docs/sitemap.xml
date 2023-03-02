@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rivermao.com/post/</loc>
-    <lastmod>2023-02-23T11:09:40+08:00</lastmod>
+    <loc>https://rivermao.com/program/</loc>
+    <lastmod>2023-03-02T14:09:40+08:00</lastmod>
   </url><url>
     <loc>https://rivermao.com/</loc>
+    <lastmod>2023-03-02T14:09:40+08:00</lastmod>
+  </url><url>
+    <loc>https://rivermao.com/program/normal-latest-squares/</loc>
+    <lastmod>2023-03-02T14:09:40+08:00</lastmod>
+  </url><url>
+    <loc>https://rivermao.com/program/pgsql-function-olap/</loc>
     <lastmod>2023-02-23T11:09:40+08:00</lastmod>
   </url><url>
-    <loc>https://rivermao.com/post/pgsql01/</loc>
-    <lastmod>2023-02-23T11:09:40+08:00</lastmod>
-  </url><url>
-    <loc>https://rivermao.com/post/rust01/</loc>
+    <loc>https://rivermao.com/program/rust-features-01/</loc>
     <lastmod>2022-05-31T20:59:22+08:00</lastmod>
   </url><url>
     <loc>https://rivermao.com/categories/</loc>

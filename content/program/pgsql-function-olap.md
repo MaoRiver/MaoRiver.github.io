@@ -1,7 +1,7 @@
 ---
 title: "在PostgreSQL中使用窗口函数解决取分组后前n条数据的问题"
 date: 2023-02-23T11:09:40+08:00
-draft: true
+draft: false
 ---
 
 先描述一个业务场景:
