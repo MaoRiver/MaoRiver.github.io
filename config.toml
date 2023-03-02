@@ -3,9 +3,24 @@ languageCode = 'en-us'
 title = 'RiverMao'
 theme = 'ivy'
 publishDir = "docs"
+hasCJKLanguage = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[menu]
+    [[menu.main]]
+        name="rss"
+        url="/index.xml"
+        weight="2"
+    [[menu.main]]
+        name="program"
+        url="/program/"
+        weight="1"
+
 [params]
     # description abou this website
     description = "环游是无趣~"
+    email= "Email:i@rivermao.com"
     footer = "&copy; [RiverMao](https://rivermao.com) | since 2020"
 [markup]
     [goldmark]
