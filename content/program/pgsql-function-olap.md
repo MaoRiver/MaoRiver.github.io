@@ -41,7 +41,7 @@ select *, pcd.number
                            from table_name
                            where create_time > '2023-02-21'
                              and create_time < '2023-02-22'
-                           group by factory_number) d
+                           group by number) d
                           on d.number = pcd.number and pcd.create_time = d.latest_create_time
 ```
 
@@ -77,9 +77,9 @@ select *, pcd.number
 ```sql
 select *
 from (SELECT *,
-             row_number() OVER (PARTITION BY factory_number order by create_time desc ) as row_number
-      FROM product_calibrate_data
-      order by factory_number) d
+             row_number() OVER (PARTITION BY number order by create_time desc ) as row_number
+      FROM table_name
+      order by number) d
 where d.row_number = 1
 order by create_time desc;
 ```
