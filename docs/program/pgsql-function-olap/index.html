@@ -139,7 +139,7 @@
 </span></span><span style="display:flex;"><span>                           <span style="color:#66d9ef">from</span> <span style="color:#66d9ef">table_name</span>
 </span></span><span style="display:flex;"><span>                           <span style="color:#66d9ef">where</span> create_time <span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#39;2023-02-21&#39;</span>
 </span></span><span style="display:flex;"><span>                             <span style="color:#66d9ef">and</span> create_time <span style="color:#f92672">&lt;</span> <span style="color:#e6db74">&#39;2023-02-22&#39;</span>
-</span></span><span style="display:flex;"><span>                           <span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> factory_number) d
+</span></span><span style="display:flex;"><span>                           <span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> number) d
 </span></span><span style="display:flex;"><span>                          <span style="color:#66d9ef">on</span> d.number <span style="color:#f92672">=</span> pcd.number <span style="color:#66d9ef">and</span> pcd.create_time <span style="color:#f92672">=</span> d.latest_create_time
 </span></span></code></pre></div><p>但这种写法存在一个致命的问题:</p>
 <p>如果数据表存在有这么两条或多条记录,它们的<code>number</code>和<code>create_time</code>的值同时相等,那么:</p>
@@ -169,9 +169,9 @@
 <p>我们使用<code>row_number()</code>解决上述所有问题:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">from</span> (<span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span>,
-</span></span><span style="display:flex;"><span>             row_number() OVER (PARTITION <span style="color:#66d9ef">BY</span> factory_number <span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> create_time <span style="color:#66d9ef">desc</span> ) <span style="color:#66d9ef">as</span> row_number
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">FROM</span> product_calibrate_data
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> factory_number) d
+</span></span><span style="display:flex;"><span>             row_number() OVER (PARTITION <span style="color:#66d9ef">BY</span> number <span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> create_time <span style="color:#66d9ef">desc</span> ) <span style="color:#66d9ef">as</span> row_number
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">FROM</span> <span style="color:#66d9ef">table_name</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> number) d
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">where</span> d.row_number <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> create_time <span style="color:#66d9ef">desc</span>;
 </span></span></code></pre></div>
