@@ -13,6 +13,5 @@ Java,Kotlin,JavaScript,Go,Python,C,C++
 
 Rust
 ```
-联系我: 
 
 - Email: [i@rivermao.com](mailto:i@rivermao.com)
