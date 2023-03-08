@@ -144,7 +144,7 @@ fun HorizontalCustomTextField(
             textContent()
         }
         Spacer(modifier = Modifier.width(5.dp))
-        Box(Modifier.weight(0.99f).border(1.dp, Color.LightGray, MyColors.customTextFieldShape)) {
+        Box(Modifier.weight(0.99f).border(1.dp, Color.LightGray, RoundedCornerShape(percent = 20))) {
             customTextFieldContent()
             otherContent?.let {
                 it()
