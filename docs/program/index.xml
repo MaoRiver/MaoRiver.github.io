@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 02 Mar 2023 14:09:40 +0800</lastBuildDate><atom:link href="https://rivermao.com/program/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>线性最小二乘法的参数解</title>
-      <link>https://rivermao.com/program/normal-latest-squares/</link>
+      <link>https://rivermao.com/program/math-normal-latest-squares/</link>
       <pubDate>Thu, 02 Mar 2023 14:09:40 +0800</pubDate>
       
-      <guid>https://rivermao.com/program/normal-latest-squares/</guid>
+      <guid>https://rivermao.com/program/math-normal-latest-squares/</guid>
       <description>定义 最小二乘法（英语：least squares method），又称最小平方法，是一种数学优化建模方法。它通过最小化误差的平方和寻找数据的最佳函数匹配。利</description>
     </item>
     
@@ -26,12 +26,57 @@
     </item>
     
     <item>
+      <title>Kotlin中select关键字与Channel的用法</title>
+      <link>https://rivermao.com/program/kotlin-select%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%8Echannel%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Fri, 08 Jul 2022 16:39:51 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/kotlin-select%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%8Echannel%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <description>Kotlin中Channel的使用 类似Go中的Channel,Kotlin中的Channel也可以在协程间通信 创建 最基本的声明方式:(Cha</description>
+    </item>
+    
+    <item>
+      <title>Rust中的切片</title>
+      <link>https://rivermao.com/program/rust-slice/</link>
+      <pubDate>Tue, 31 May 2022 20:59:22 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/rust-slice/</guid>
+      <description>切片(Slice) Rust的另一种不持有所有权的数据类型: 切片(slice) 一道题,编写一个函数: 它接收字符串作为参数 返回它在这个字符串的第</description>
+    </item>
+    
+    <item>
       <title>Rust特性(1)--所有权,深浅拷贝,引用,借用,悬空引用(野指针)</title>
       <link>https://rivermao.com/program/rust-features-01/</link>
       <pubDate>Tue, 31 May 2022 20:59:22 +0800</pubDate>
       
       <guid>https://rivermao.com/program/rust-features-01/</guid>
       <description>内存模型 Rust的内存可分为**栈(stack)和堆(heap)**两种 标量会被分配在栈上 栈为后进先出 分配在堆上的变量在使用时要注意一个叫做</description>
+    </item>
+    
+    <item>
+      <title>Rust的函数</title>
+      <link>https://rivermao.com/program/rust-%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 31 May 2022 20:59:22 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/rust-%E5%87%BD%E6%95%B0/</guid>
+      <description>函数 函数的声明 fn main() { println!(&amp;#34;This&amp;#34;); another_function(); } fn another_function(){ println!(&amp;#34;Another&amp;#34;) } 函数不必定义在main前,声明在在其后依然可以在main中调用 函数的参数 形参 parameters 实参 arguments 在函数的声明里,必须声</description>
+    </item>
+    
+    <item>
+      <title>Rust的变量、常量与遮蔽(Shadowing)</title>
+      <link>https://rivermao.com/program/rust-%E5%8F%98%E9%87%8F%E5%B8%B8%E9%87%8F%E4%B8%8E%E9%81%AE%E8%94%BD/</link>
+      <pubDate>Tue, 31 May 2022 20:59:22 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/rust-%E5%8F%98%E9%87%8F%E5%B8%B8%E9%87%8F%E4%B8%8E%E9%81%AE%E8%94%BD/</guid>
+      <description>Rust的变量,常量,Shadowing 变量 声明变量使用let关键字 默认情况下,Rust的变量是不可变的(immediate),但这与常量仍</description>
+    </item>
+    
+    <item>
+      <title>Rust的数据类型</title>
+      <link>https://rivermao.com/program/rust-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Tue, 31 May 2022 20:59:22 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/rust-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <description>Rust数据类型 标量和复合类型 Rust是静态编译语言,在编译时必须知道所有变量的类型 基于使用的值编译器通常能够推断出变量的具体类型 但如果可能</description>
     </item>
     
   </channel>
