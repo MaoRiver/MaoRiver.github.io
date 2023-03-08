@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lives on RiverMao</title>
+    <link>https://rivermao.com/life/</link>
+    <description>Recent content in Lives on RiverMao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2022 19:39:30 +0800</lastBuildDate><atom:link href="https://rivermao.com/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birthday_24</title>
+      <link>https://rivermao.com/life/birthday-24/</link>
+      <pubDate>Sun, 31 Jul 2022 19:39:30 +0800</pubDate>
+      
+      <guid>https://rivermao.com/life/birthday-24/</guid>
+      <description>Happy 24th birthday! 🎂 祝自己24岁生日快乐</description>
+    </item>
+    
+  </channel>
+</rss>
