@@ -6,7 +6,16 @@
     <description>Recent content on RiverMao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Mar 2023 14:39:51 +0800</lastBuildDate><atom:link href="https://rivermao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 08:39:51 +0800</lastBuildDate><atom:link href="https://rivermao.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在java或kotlin中使用jna调用dll动态链接库</title>
+      <link>https://rivermao.com/program/java-%E5%9C%A8java%E6%88%96kotlin%E4%B8%AD%E4%BD%BF%E7%94%A8jna%E8%B0%83%E7%94%A8dll%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93/</link>
+      <pubDate>Fri, 10 Mar 2023 08:39:51 +0800</pubDate>
+      
+      <guid>https://rivermao.com/program/java-%E5%9C%A8java%E6%88%96kotlin%E4%B8%AD%E4%BD%BF%E7%94%A8jna%E8%B0%83%E7%94%A8dll%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93/</guid>
+      <description>1.jna介绍 Java Native Access (JNA),Github地址:JNA 在仓库的README.md中有: JNA provides Java programs easy access to native shared libraries without writing anything but Java code - no JNI or native code is required. This functionality</description>
+    </item>
+    
     <item>
       <title>Compose Multiplatform自定义可下拉输入框组件</title>
       <link>https://rivermao.com/program/kotlin-compose%E8%87%AA%E5%AE%9A%E4%B9%89textfield/</link>
