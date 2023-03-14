@@ -6,7 +6,16 @@
     <description>Recent content on RiverMao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 08:39:51 +0800</lastBuildDate><atom:link href="https://rivermao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 15:26:30 +0800</lastBuildDate><atom:link href="https://rivermao.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-03-14记</title>
+      <link>https://rivermao.com/life/2023-03-14/</link>
+      <pubDate>Tue, 14 Mar 2023 15:26:30 +0800</pubDate>
+      
+      <guid>https://rivermao.com/life/2023-03-14/</guid>
+      <description>周六睡了13个小时,梦见某前女友要结婚了,我们在江边的一个凉亭见了面 旁边一个人把足球踢到江里去了 我们俩始终没有人开口说话 至于为什么两天过去了</description>
+    </item>
+    
     <item>
       <title>在java或kotlin中使用jna调用dll动态链接库</title>
       <link>https://rivermao.com/program/java-java-kotlin-jna-dll-call/</link>
